@@ -10,8 +10,10 @@ def nyc_pigeon_organizer(data)
     names_array.each do | name | 
    if !new_pigeon_data[name] 
      new_pigeon_data[name] = {}
+      
    end
-     if  !new_pigeon_data[name][key]  
+     if  !new_pigeon_data[name][key] 
+       
     new_pigeon_data[name][key] = []  
     
 end
@@ -20,7 +22,7 @@ end
  
    
  end
- # binding.pry 
+ #filter_parameter_logging binding.pry 
   end
  end
  
